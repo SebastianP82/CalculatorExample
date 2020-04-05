@@ -11,7 +11,8 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="476.0" prefWidth="603.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            onKeyTyped="#keyPressedMethod" prefHeight="476.0" prefWidth="603.0" styleClass="background" stylesheets="@StyleCSS.css" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Label fx:id="calculateLabel" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="277.0" layoutY="14.0" prefHeight="35.0" prefWidth="573.0" textAlignment="RIGHT" textFill="#5a791f" wrapText="true" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
          <font>
@@ -21,7 +22,7 @@
             <Cursor fx:constant="DISAPPEAR" />
          </cursor>
       </Label>
-      <TextField fx:id="calculateTextField" alignment="CENTER_RIGHT" disable="true" editable="false" layoutX="5.0" layoutY="55.0" prefHeight="46.0" prefWidth="587.0" promptText="0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="55.0">
+      <TextField fx:id="calculateTextField" alignment="CENTER_RIGHT" disable="true" editable="false" layoutX="5.0" layoutY="55.0" prefHeight="46.0" prefWidth="587.0" styleClass="text-field" stylesheets="@StyleCSS.css" text="0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="55.0">
          <font>
             <Font name="Kristen ITC" size="18.0" />
          </font>
